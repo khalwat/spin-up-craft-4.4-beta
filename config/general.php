@@ -23,6 +23,10 @@ if (App::env('CODESPACES')) {
 }
 
 return GeneralConfig::create()
+    // Craft config settings from .env variables
+    ->aliases([
+        '@web' => App::env('PRIMARY_SITE_URL'),
+    ])
     ->runQueueAutomatically(false)
     // Set the default week start day for date pickers (0 = Sunday, 1 = Monday, etc.)
     ->defaultWeekStartDay(1)
