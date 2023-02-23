@@ -1,8 +1,16 @@
-dateModified: 1677174008
+dateModified: 1677176726
 email:
   fromEmail: info@putyourlightson.net
   fromName: 'Craft Coding Challenge'
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  site:
+    hasUrls: true
+    name: Site
+    settings:
+      path: '@webroot/assets'
+    type: craft\fs\Local
+    url: $PRIMARY_SITE_URL
 graphql:
   publicToken:
     enabled: false
@@ -10,12 +18,14 @@ graphql:
 meta:
   __names__:
     0d89c679-f6f5-42ae-8341-4bea917c6af7: $CRAFT_SITE_NAME # $CRAFT_SITE_NAME
-    7fabf690-b3e5-4f9e-9d36-cdfa29f9e0e6: 'Public Schema'
+    3ebb5d62-ada0-4d36-ab52-5b354204b715: Site # Site
+    7fabf690-b3e5-4f9e-9d36-cdfa29f9e0e6: 'Public Schema' # Public Schema
     0779f354-f5d2-4f82-9a36-28a252f70ce4: 'Public Schema' # Public Schema
     31006d4c-2f40-498c-9a4c-69cff4fd4279: Common # Common
     b55012be-3f7f-4150-b59c-5a6623c00743: 'Public Schema' # Public Schema
     c7c2807b-84cc-4e1f-9279-af044bc0b472: 'Public Schema' # Public Schema
     f255ef6d-0c55-4bdc-9ced-f610bbb3bed6: $CRAFT_SITE_NAME # $CRAFT_SITE_NAME
+    f381ac1b-0dd9-43e0-ab89-2db8f78d92f7: 'Public Schema'
 system:
   edition: pro
   live: true
