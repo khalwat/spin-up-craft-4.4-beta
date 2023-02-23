@@ -4,4 +4,5 @@
 .DS_Store
 /web/cpresources
 /storage
-/web/assets/_*
+/web/assets/dogs/_*
+/web/assets/cats/_*
