@@ -19,7 +19,8 @@ php_1    | ### Your Craft site is ready!
 php_1    | Frontend URL: https://khalwat-laughing-space-zebra-xg9qxvqjpqhp5qx-8050.preview.app.github.dev/
 php_1    | CP URL: https://khalwat-laughing-space-zebra-xg9qxvqjpqhp5qx-8050.preview.app.github.dev/admin
 php_1    | CP User: admin
-php_1    | CP Password: project```
+php_1    | CP Password: project
+```
 
 This lets anyone use the project without having to do _any_ local setup.
 
