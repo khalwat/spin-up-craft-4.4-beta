@@ -23,7 +23,7 @@ if (App::env('CODESPACES')) {
 }
 
 return GeneralConfig::create()
-    // Craft config settings from .env variables
+    // Explicitly set the @web alias from the PRIMARY_SITE_URL env var
     ->aliases([
         '@web' => App::env('PRIMARY_SITE_URL'),
     ])
