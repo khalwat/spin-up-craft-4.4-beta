@@ -10,7 +10,7 @@ This project was created using [Spin Up Craft](https://github.com/nystudio107/sp
 
 ## Spin Up Craft 4.4 Beta in a browser via Github Codespaces
 
-1. Click on **Use this template** and select **Open in a codespace** if your repository is a Template Repository.
+1. Click this button: [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=master&repo=605680287)
 2. In the resulting Terminal window, type `make dev` to start the project up
 3. Wait until you see output like this, and then access the site via the credentials that are output on the console:
 
